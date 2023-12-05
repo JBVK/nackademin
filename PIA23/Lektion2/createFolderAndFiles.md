@@ -20,7 +20,7 @@ Navigate to subfolder1 using cd.
 Confirm your location with pwd. You should see:
 
 ```bash
-/home/ec2-user/folder1
+/home/ec2-user/folder1/subfolder1
 ```
 
 Create a file named mystuff in subfolder1 using touch. 
