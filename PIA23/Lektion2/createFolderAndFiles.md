@@ -22,6 +22,7 @@ Confirm your location with pwd.
 Create a file named mystuff in subfolder1 using touch. 
 
 Verify that the file is created with ls. You should see:
+
 ```bash
 mystuff
 ```
