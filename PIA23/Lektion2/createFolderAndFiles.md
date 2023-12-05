@@ -17,7 +17,11 @@ In folder1, create a subfolder named subfolder1 using mkdir.
 
 Navigate to subfolder1 using cd. 
 
-Confirm your location with pwd.
+Confirm your location with pwd. You should see:
+
+```bash
+/home/ec2-user/folder1
+```
 
 Create a file named mystuff in subfolder1 using touch. 
 
