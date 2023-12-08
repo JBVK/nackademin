@@ -104,7 +104,7 @@ touch .ssh/authorized_keys
 
 We must also change permissions on the file so that SSH will allow usage of it.
 ```bash
-chown 600 .ssh/authorized_keys
+chmod 600 .ssh/authorized_keys
 ```
 
 ## Copy public SSH-key to authorized keys
