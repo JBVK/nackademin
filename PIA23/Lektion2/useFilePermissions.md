@@ -74,7 +74,7 @@ Only ec2-user should be able to create and delete files in the directory /tmp/sa
 
 Your secondary user should be able to read the files in the directory.
 
-Others should not have access to files in the directory.
+Others should  should be able to read the files in the directory.
 
 ## Permissions for salesreport_2312
 **As user ec2-user**
