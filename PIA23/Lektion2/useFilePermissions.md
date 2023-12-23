@@ -3,19 +3,21 @@
 In this lab we will create a folder with a file in /tmp and you will give a different user permissions to manage the file.
 This lab will not have the commands you will need to run. To see all the commands look at lab useFilePermissionsWithCommands.md under Lektion2.
 
-Question, why are we using the /tmp folder for this lab. Is there something with the permissions of that folder that makes it suited for this lab?
-
 This lab should be done on your EC2 and depends on you having a secondary user on that EC2 aswell.
 
 ## Create folder
 **As user ec2-user**
 
-In /tmp create a folder named salesreports.
+In / create a folder named salesreports.
+
+## Set ec2-user as owner
+
+Set user ec2-user as the owner and groupowner of the new folder /salesreports
 
 ## Create salesreport
 **As user ec2-user**
 
-In /tmp/salesreport create file salesreport_2312
+In /salesreport create file salesreport_2312
 
 ## Add report to salesreport_2312
 **As user ec2-user**
@@ -70,7 +72,7 @@ For detailed transaction data, refer to the attached spreadsheet.
 ## Permissions for folder
 **As user ec2-user**
 
-Only ec2-user should be able to create and delete files in the directory /tmp/salesreport.
+Only ec2-user should be able to create and delete files in the directory /salesreport.
 
 Your secondary user should be able to read the files in the directory.
 
@@ -89,4 +91,4 @@ Others should not have access to the file.
 ## Read salesreport_2312 as your secondary user
 **As your secondary user**
 
-Try and read the file /tmp/salesreport/salesreport_2312
+Try and read the file /salesreport/salesreport_2312
