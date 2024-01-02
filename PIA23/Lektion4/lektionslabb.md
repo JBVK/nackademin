@@ -14,11 +14,15 @@
 
 crontab -e
 
+```bash
 * * * * * date >> /home/ec2-user/time
+```
 
 ### Labb 2
 
+```bash
 30 3 * * 5 cat /etc/* 2> /home/ec2-user/etc_errors > /dev/null
+```
 
 ### Labb 3
 
