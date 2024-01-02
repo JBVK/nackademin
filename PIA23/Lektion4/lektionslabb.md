@@ -10,6 +10,8 @@
 
 ## Lösningar
 
+I detta fall har jag inte skapat skript utan kör kommandot direkt i crontab filen.
+
 ### Labb 1
 
 crontab -e
